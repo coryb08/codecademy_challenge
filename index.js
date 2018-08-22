@@ -1,3 +1,4 @@
+//1
 reverseArray = arr => {
   let newArr = []
   while (arr.length > 0) {
@@ -6,6 +7,7 @@ reverseArray = arr => {
   return newArr
 }
 
+//2
 greetAliens = arr => {
   for (var i = 0; i < arr.length; i += 1) {
     console.log(
@@ -14,6 +16,7 @@ greetAliens = arr => {
   }
 }
 
+//3
 convertToBaby = arr => {
   let newArr = []
   for (var i = 0; i < arr.length; i += 1) {
@@ -22,6 +25,7 @@ convertToBaby = arr => {
   return newArr
 }
 
+//4
 smallestPowerOfTwo = arr => {
   let results = []
   // The 'outer' for loop - loops through each element in the array
@@ -38,6 +42,7 @@ smallestPowerOfTwo = arr => {
   return results
 }
 
+//5
 acceptEverything = str => {
   console.log(`Ok, I guess I will eat some ${str}.`)
 }
@@ -48,12 +53,14 @@ declineEverything = arr => {
   }
 }
 
+//6
 squareNums = arr => {
   let result = []
   arr.map(num => result.push(num * num))
   return result
 }
 
+//7
 shoutGreetings = arr => {
   let newArr = []
   arr.map(str => newArr.push(str.toUpperCase() + "!"))
@@ -62,10 +69,12 @@ shoutGreetings = arr => {
 
 //BONUS
 
+//8
 sortYears = arr => {
   return arr.sort().reverse()
 }
 
+//9
 justCoolStuff = (arr1, arr2) => {
   helper = ele => {
     if (arr2.includes(ele)) {
@@ -75,6 +84,7 @@ justCoolStuff = (arr1, arr2) => {
   return arr1.filter(this.helper)
 }
 
+//10
 isTheDinnerVegan = arr => {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].source !== "plant") {
@@ -85,6 +95,7 @@ isTheDinnerVegan = arr => {
   return true
 }
 
+//11
 dogFactory = (name, breed, weight) => {
   return {
     name,
